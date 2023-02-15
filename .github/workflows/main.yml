@@ -6,6 +6,7 @@ on:
 jobs:
   imprime_data_ubuntu:
     name: Imprime data atual - Ubuntu
+    runs-on: ubunto-latest
     
     steps:
       - name: Imprime data atual
